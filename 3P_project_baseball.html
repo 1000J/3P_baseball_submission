@@ -11797,7 +11797,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
@@ -11835,7 +11835,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">salaries_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Salaries.csv&#39;</span><span class="p">)</span>
@@ -11852,7 +11852,7 @@ div#notebook {
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[2]:</div>
+<div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -11945,7 +11945,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="n">salaries_df</span><span class="p">[</span><span class="n">salaries_df</span><span class="o">.</span><span class="n">yearID</span><span class="o">==</span><span class="mi">2016</span><span class="p">]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;teamID&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -12019,7 +12019,7 @@ WSN         26    26        26      26
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">teams_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Teams.csv&#39;</span><span class="p">)</span>
@@ -12037,7 +12037,7 @@ WSN         26    26        26      26
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[4]:</div>
+<div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -12180,7 +12180,7 @@ WSN         26    26        26      26
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">number_of_NaN</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">colname</span><span class="p">):</span>
@@ -12201,7 +12201,7 @@ WSN         26    26        26      26
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">number_of_NaN</span><span class="p">(</span><span class="n">salaries_df</span><span class="p">,</span><span class="s1">&#39;salary&#39;</span><span class="p">)</span>
@@ -12230,7 +12230,7 @@ num of missing values:  0
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -12247,7 +12247,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">number_of_NaN</span><span class="p">(</span><span class="n">teams_df</span><span class="p">,</span><span class="s1">&#39;W&#39;</span><span class="p">)</span>
@@ -12276,7 +12276,7 @@ num of missing values:  0
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[7]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -12302,7 +12302,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">merge_team_and_salaries</span><span class="p">():</span>
@@ -12331,7 +12331,7 @@ num of missing values:  0
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -12580,7 +12580,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">fix_salaries_df_teamid</span><span class="p">():</span>
@@ -12605,7 +12605,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">fix_salaries_df_teamid</span><span class="p">()</span>
@@ -12623,7 +12623,7 @@ num of missing values:  0
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -12716,7 +12716,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">compute_correl</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">col1</span><span class="p">,</span> <span class="n">col2</span><span class="p">,</span> <span class="n">grp</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
@@ -12744,7 +12744,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">salary_win_corr</span> <span class="o">=</span> <span class="n">compute_correl</span><span class="p">(</span><span class="n">salaries_vs_win_data</span><span class="p">,</span> <span class="s1">&#39;salary&#39;</span><span class="p">,</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span> <span class="s1">&#39;yearID&#39;</span><span class="p">)</span>
@@ -12766,7 +12766,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">plot_single_line</span><span class="p">(</span><span class="n">x_list</span><span class="p">,</span> <span class="n">y_list</span><span class="p">,</span> <span class="n">ptitle</span><span class="p">,</span> <span class="n">pxlabel</span><span class="p">,</span> <span class="n">pylabel</span><span class="p">):</span>
@@ -12788,7 +12788,7 @@ num of missing values:  0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">x_val</span> <span class="o">=</span> <span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">salary_win_corr</span><span class="p">]</span>
@@ -13249,7 +13249,7 @@ ktgDICKSKfYAiIhkigmAiEimmACIiGSKCYCISKaYAIiIZOr/AQ1cGj3xAlH8AAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">plot_groupby_mean_max_min</span><span class="p">(</span><span class="n">datalist</span><span class="p">,</span> <span class="n">grp</span><span class="p">,</span> <span class="n">colname</span><span class="p">,</span> <span class="n">ptitle</span><span class="p">,</span> <span class="n">pxlabel</span><span class="p">,</span> <span class="n">pylabel</span><span class="p">):</span>
@@ -13286,7 +13286,7 @@ ktgDICKSKfYAiIhkigmAiEimmACIiGSKCYCISKaYAIiIZOr/AQ1cGj3xAlH8AAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">plot_groupby_mean_max_min</span><span class="p">(</span><span class="n">salaries_vs_win_data</span><span class="p">,</span> <span class="s1">&#39;yearID&#39;</span><span class="p">,</span> <span class="s1">&#39;salary&#39;</span><span class="p">,</span> 
@@ -13759,7 +13759,7 @@ SVIfJpOAJElSHyaTgCRJUh8mk4AkSVIf9v8rYNobtyaOMwAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">plot_groupby_mean_max_min</span><span class="p">(</span><span class="n">salaries_vs_win_data</span><span class="p">,</span> <span class="s1">&#39;yearID&#39;</span><span class="p">,</span> <span class="s1">&#39;W&#39;</span><span class="p">,</span>
@@ -14293,12 +14293,275 @@ IAiIYCAIgiAggoEgCIKACAaCIAgC8P9HkJ3AZvgjVAAAAABJRU5ErkJggg==
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">salaries_vs_win_data</span><span class="p">[</span><span class="n">salaries_vs_win_data</span><span class="o">.</span><span class="n">yearID</span><span class="o">==</span><span class="mi">2016</span><span class="p">][</span><span class="s1">&#39;salary&#39;</span><span class="p">],</span>
+            <span class="n">salaries_vs_win_data</span><span class="p">[</span><span class="n">salaries_vs_win_data</span><span class="o">.</span><span class="n">yearID</span><span class="o">==</span><span class="mi">2016</span><span class="p">][</span><span class="s1">&#39;W&#39;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Team Salary ($)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Wins&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Chart O: Win vs Team Salary in 2016&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[23]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.text.Text at 0xdaeecc0&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+p7+axx/cjAAAAABJRU5ErkJggg==
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>CONCLUSION FOR QUESTION 1</strong></p>
 <p>Team salary and win total are positively correlated with correlation being higher from 1993 to 2016 than from 1985 to 1992 (Chart A).  Correlation ranged between -0.05 to 0.35 from 1985 to 1992, which imply that there were very small positive correlation, if any.  Salary and win correlation were much higher over the next 18years, from 1993 to 2011, as they ranged from 0.35 to 0.67.  They dropped to around 0.25 from 2012 to 2015, before jumping to 0.65 in 2016.  There seems to be positive correlation between the two variables, especially after 1993.</p>
+<p>Looking at the scatterplot of wins versus team salary of 2016 season shows the strong positive correlation (Chart O).  All eight teams that spend more than \$150 million in team salary won at least 83 games for the season.  On the other hand, twelve out of fourteen teams with salary less than \$125 million won less than 80 games.  However, since the correlation does not imply causation, I cannot conclude that teams spending more salary will likely to win more games.  While controlled experiment could help answer the causation, it is difficult to set up as the league will not accept to do an experiment.</p>
+<p>Another limitation of the data is that the team salary is the beginning of the year total.  Teams add and drop players throughout the season, so the beginning team salaries could vastly differ from the in-season and ending team salaries.</p>
 <p>Looking at the annual salary chart (Chart B), average team salaries has ballooned from \$10 million in 1985 to \$125 million in 2016.  Maximum team salary has broken \$200 million mark in 2005 and has been around \$220 million from 2013 to 2016.</p>
 <p>Annual team wins have been averaging around 81 games, except for the strike-shortened season of 1994 and 1995 (Chart C).  This makes sense because there are 162 games per team a year, minus a small number of cancelled games that are not made up.  Removing the strike-shortened seasons, maximum team wins have ranged from 96 wins to 116 wins while the minumum team wins have ranged from 43 wins to 66 wins.</p>
 
@@ -23425,7 +23688,8 @@ hBBCaJJmIYQQQpM0CyGEEJr+H3qOBtIEwdTPAAAAAElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>CONCLUSION FOR QUESTION 2</strong></p>
-<p>Since the inception of the all-star game in 1933, average age of all-star players has been fairly consistent at 29 years.  On the other hand, average weight and average height has increased over the years to 74 inches and average weight has jumped to 218 pounds in 2016.  Average age of all-star players were almost 1 year older than average age of all players.  Since 2000, average height of all-stars were 0.3 inches taller and average weight were 6 pounds heavier than all players.</p>
+<p>Since the inception of the all-star game in 1933, average age of all-star players has been fairly consistent at 29 years.  On average, all-star players tend to be 0.5 years older than all players in the league.</p>
+<p>On the other hand, average weight and average height has increased over the years to 74 inches and average weight has jumped to 218 pounds in 2016.  Average age of all-star players were almost 1 year older than average age of all players.  Since 2000, average height of all-stars were 0.3 inches taller and average weight were 6 pounds heavier than all players.  As mentioned above, one limitation of the height and weight data is that there is only one value for a player.  Weight and height of most, if not all, players will fluctuate during the course of their career.  The analysis would have benefitted if the players weight and height were provided for every season.</p>
 
 </div>
 </div>
